@@ -5,7 +5,7 @@
 
 # fizzbuzz: Single argument version of the fizzbuzz problem.
 # =>  int - an integr value to be read in and processed.
-# <=  int - if the integer is neither divisble by 3 nor 5.
+# <=  nil - if the integer is neither divisble by 3 nor 5.
 # <=  fizz - if the integer is divisible by 3.
 # <=  buzz - if the integer is divisible by 5.
 # <=  fizzbuzz - if the integer is divisible by both 3 and 5.
@@ -20,5 +20,5 @@ def fizzbuzz(int)
   if int % 5 == 0
     return "Buzz"
   end
-  return int
+  return nil
 end
